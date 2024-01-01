@@ -1,0 +1,390 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.first {
+    width: 90%;
+    height: 400px;
+    margin: 0px auto;
+    background-image: url('bg1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 90px;
+
+}
+
+.first p {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.btn {
+    position: relative;
+    left: 45%;
+    top: 10px;
+    font-size: 16px;
+    border: none;
+    padding: 10px 15px;
+    background: linear-gradient(to right, rgb(117, 117, 185) 0%, rgb(100, 100, 166) 100%);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: linear-gradient(to left, rgb(117, 117, 185) 0%, rgb(103, 103, 179) 100%);
+
+}
+
+.second {
+    height: 400px;
+    background-color: aliceblue;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.second h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 90px;
+
+}
+
+.second p {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.btn1 {
+    position: relative;
+    left: 45%;
+    top: 15px;
+    font-size: 16px;
+    border: none;
+    padding: 10px 15px;
+    color: blue;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    background: linear-gradient(to right, rgb(119, 193, 211) 0%, rgb(77, 171, 160) 100%);
+
+}
+
+.btn1:hover {
+    background: linear-gradient(to left, rgb(119, 193, 211) 0%, rgb(74, 163, 152) 100%);
+
+}
+
+.flex {
+    height: 500px;
+    width: 90%;
+    margin: 0px auto;
+    background-color: rgb(85, 85, 146);
+}
+
+.third h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 30px 0px ;
+}
+
+.third p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+    color: blanchedalmond;
+}
+
+.main {
+    display:flex;
+   
+}
+.test{
+    width: 100%;
+}
+.i1{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.i1 i{
+font-size: 25px;
+position: relative;
+top: 13px;
+left: 13px;
+}
+.test h2{
+    text-align: center;
+    margin-top: 10px;
+
+}
+.test p{
+    padding:0px 20px ;
+    text-align: center;
+
+}
+
+
+.four {
+    width: 90%;
+    height: 400px;
+    background-image: url('bg2.jpg');
+    margin: 0px auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.four h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 130px;
+    color: white;
+}
+
+.btn3 {
+    position: relative;
+    left: 45%;
+    top: 10px;
+    font-size: 16px;
+    border: none;
+    padding: 10px 15px;
+    background: linear-gradient(to right, rgb(117, 117, 185) 0%, rgb(100, 100, 166) 100%);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn3:hover {
+    background: linear-gradient(to left, rgb(117, 117, 185) 0%, rgb(103, 103, 179) 100%);
+
+}
+
+.five {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: white; */
+}
+
+.p1 {
+    text-align: center;
+    color: orange;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.five h2 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.m1 {
+    display: flex;
+}
+
+.m2 {
+    display: flex;
+}
+
+h3 {
+    position: relative;
+    top: 200px;
+    color: white;
+    padding-left: 30px;
+}
+
+.p3 {
+    position: relative;
+    top: 200px;
+    color: white;
+    padding-left: 30px;
+}
+
+.img1 {
+    height: 290px;
+    width: 50%;
+    background-image: url('portfolio-1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 1s;
+    /* transform: rotate(20deg); */
+}
+
+
+.img2 {
+    height: 290px;
+    width: 50%;
+    background-image: url('portfolio-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 1s;
+    /* transform: rotate(20deg); */
+}
+
+.img3 {
+    height: 290px;
+    width: 50%;
+    background-image: url('portfolio-3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 1s;
+    /* transform: rotate(20deg); */
+}
+
+.img4 {
+    height: 290px;
+    width: 50%;
+    background-image: url('portfolio-4.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 1s;
+    /* transform: rotate(20deg); */
+}
+
+.img1:hover {
+    transform: scale(0.9);
+
+}
+
+.img2:hover {
+    transform: scale(0.9);
+}
+
+.img3:hover {
+    transform: scale(0.9);
+}
+
+.img4:hover {
+    transform: scale(0.9);
+}
+
+.six {
+    width: 95%;
+    background-color: skyblue;
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.six h1 {
+    color: black;
+    text-align: center;
+    padding-top: 66px;
+
+}
+
+.btn4 {
+    position: relative;
+    left: 45%;
+    top: 10px;
+    font-size: 16px;
+    border: none;
+    padding: 10px 15px;
+    background: linear-gradient(to right, rgb(187, 117, 171) 0%, rgb(186, 83, 180) 100%);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.btn4:hover {
+    background: linear-gradient(to left, rgb(117, 117, 185) 0%, rgb(103, 103, 179) 100%);
+
+}
+
+.btn5 {
+    position: relative;
+    left: 45%;
+    top: 10px;
+    font-size: 16px;
+    border: none;
+    padding: 10px 15px;
+    background: linear-gradient(to right, rgb(57, 118, 203) 0%, rgb(126, 215, 235) 100%);
+    color: white;
+    border-radius: 10px;
+
+}
+
+
+.btn5:hover {
+    background: linear-gradient(to left, rgb(117, 117, 185) 0%, rgb(103, 103, 179) 100%);
+}
+
+
+
+
+
+/* Responsive design */
+
+
+
+@media screen and (max-width: 768px) {
+    .btn , .btn1,.btn3{
+        left: 40%;
+    }
+}
+@media screen and (max-width: 548px) {
+    .btn , .btn1,.btn3{
+        left: 35%;
+    }
+    .second p{
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 468px) {
+    .main{
+        display: block;
+    }
+    .third p{
+        padding: 0px;
+
+    }
+    .third h2{
+        padding: 0px;
+
+    }
+    .six h1{
+        padding: 0px;
+        padding-top: 15px;
+    }
+    .btn4{
+        position: relative;
+        left: 30%;
+    }
+    .btn5{
+        position: relative;
+        left: 30%;
+    }
+}
